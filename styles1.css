@@ -1,0 +1,102 @@
+ 
+.red {
+    font-family: "Courier New", monospace;
+    color: red;
+}
+
+   .red:hover .tooltiptext {
+      background-color: #ff8080;
+    }
+
+.orange {
+    font-family: Trirong, sans-serif;
+    color: orange;
+}
+
+	.orange:hover .tooltiptext {
+      background-color: #ffb366;
+}
+.yellow {
+    font-family: Verdana, sans-serif;
+    color: yellow;
+}
+
+  .yellow:hover .tooltiptext {
+      background-color: #ffff99; 
+    }
+
+.green {
+    font-family: Georgia, serif;
+    color: green;
+}
+
+ .green:hover .tooltiptext {
+      background-color: #99ff99; 
+    }
+
+.blue {
+    font-family: "Trebuchet MS", sans-serif;
+    color: blue;
+}
+	.blue:hover .tooltiptext {
+      background-color: #99ccff; 
+}
+
+.indigo {
+    font-family: "Palatino Linotype", serif;
+    color: #4b0082;
+}
+
+.indigo:hover .tooltiptext {
+      background-color: #6f339b; 
+    }
+
+.violet {
+    font-family: "Times New Roman", serif;
+    color: #7F00FF;
+}
+
+    .violet:hover .tooltiptext {
+      background-color: #d299ff; 
+    }
+
+.drop-cap {
+    float: left;
+    font-size: 60px;
+    line-height: 40px;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+    .tooltip {
+      position: relative;
+      display: inline-block;
+
+
+    }
+    
+ 
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      padding: 5px 0;
+      border-radius: 6px;
+      position: absolute;
+      z-index: 1;
+    }
+    
+    
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+
+}
+
+.rainbow {
+    
+    margin-bottom: 10px;
+    position: relative;
+margin-right: 15px
+}
